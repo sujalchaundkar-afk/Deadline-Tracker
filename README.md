@@ -1,11 +1,11 @@
 # ⏰ Deadline Tracker
 
-An AI-powered application built with Streamlit and Gemini Vision that parses messy real-world images (syllabi, schedules, assignment notices) to extract structured deadlines and dispatches reminders via Gmail or Telegram.
+An AI-powered application built with Streamlit and Gemini Vision that parses messy real-world images (syllabi, schedules, assignment notices) to extract structured deadlines and dispatches reminders via Gmail.
 
 ## Features
 - **Visual Deadline Extraction**: Reads image-based schedules using Gemini Vision.
 - **Graceful Failure Handling**: Safely detects non-schedule images.
-- **Multi-Channel Alerts**: Send summary digests via Gmail (SMTP) or Telegram Bot.
+- **Multi-Channel Alerts**: Send summary digests via Gmail (SMTP).
 
 ## Setup Instructions
 
