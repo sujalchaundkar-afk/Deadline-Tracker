@@ -1,4 +1,4 @@
-# ⏰ Deadline Tracker — AI Multimodal Schedule & Task Extractor
+# ⏰ Deadline Tracker
 
 An AI-powered web application built with Streamlit and Gemini Vision that extracts structured academic and project deadlines from messy, real-world images such as syllabi, exam timetables, and assignment sheets, and dispatches automated notification digests via email.
 
@@ -7,9 +7,9 @@ An AI-powered web application built with Streamlit and Gemini Vision that extrac
 ## 🛠️ Tech Stack
 
 * **Frontend / UI:** [Streamlit](https://streamlit.io/)
-* **AI Core:** [Google Gemini API](https://ai.google.dev/) (`gemini-1.5-flash` / `gemini-2.0-flash`)
+* **AI Core:** [Google Gemini API](https://ai.google.dev/) (`gemini-3.6-flash`)
 * **Image Processing:** [Pillow (PIL)](https://python-pillow.org/)
-* **Notification Engine:** Python `smtplib` (Gmail SMTP) & `python-telegram-bot`
+* **Notification Engine:** Python `smtplib` (Gmail SMTP)
 * **Language:** Python 3.10+
 
 ---
@@ -30,7 +30,7 @@ An AI-powered web application built with Streamlit and Gemini Vision that extrac
 Deadline-Tracker/
 ├── .streamlit/
 │   └── secrets.toml          # Local secrets (API keys & passwords) - Git-ignored
-├── action_tool.py             # Email (SMTP) & Telegram dispatch logic
+├── action_tool.py             # Email (SMTP)
 ├── app.py                     # Main Streamlit application entry point
 ├── prompts.py                 # Structured system prompt for Gemini Vision
 ├── requirements.txt           # Python dependencies
