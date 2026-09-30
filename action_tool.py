@@ -1,7 +1,6 @@
 import smtplib
 import asyncio
 from email.mime.text import MIMEText
-from telegram import Bot
 import streamlit as st
 
 def send_email(to_address: str, subject: str, body: str) -> bool:
