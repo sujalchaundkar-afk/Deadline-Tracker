@@ -1,6 +1,6 @@
 # ⏰ Deadline Tracker
 
-An AI-powered web application built with Streamlit and Gemini Vision that extracts structured academic and project deadlines from messy, real-world images such as syllabi, exam timetables, and assignment sheets, and dispatches automated notification digests via email.
+An AI-powered web application built with Streamlit and Gemini Vision that extracts structured academic and project deadlines from messy, real-world images such as syllabus, exam timetables, and assignment sheets, and dispatches automated notification digests via email.
 
 ---
 
